@@ -1,0 +1,209 @@
+/**
+* Template Name: OnePage - v2.1.0
+* Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat/montserrat-bold.woff2') format('woff2'),
+         url('../fonts/montserrat/montserrat-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratregular';
+  src: url('../fonts/montserrat/montserrat-regular.woff2') format('woff2'),
+       url('../fonts/montserrat/montserrat-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Black';
+  src: url('../fonts/lato/Lato-Black.woff2') format('woff2'),
+       url('../fonts/lato/Lato-Black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+  .card {
+    box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.5);
+    background: rgba(168, 218, 220, 0.3);
+  }
+
+  .card-header {
+    background: #1d3557;
+    color: #F1FAEE;
+    font-size: 60px;
+    font-family: 'montserratbold';
+    text-align: right;
+    letter-spacing: 10px;
+  }
+
+  .card-title {
+    font-size: 270px;
+    font-weight: 700;
+    font-family: 'montserratbold'; 
+    color: #495057;  
+  } 
+    
+  /*--------------------------------------------------------------
+  # Hero Section
+  --------------------------------------------------------------*/
+  #hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #hero:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #hero .container {
+    padding-top: 60px;
+  }
+  
+  #hero h1 {    
+    margin-bottom: 50px;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 100px;
+    color: #1d3557;
+    font-family: 'montserratbold';
+  }
+
+  #hero h1 span {    
+    border-bottom: 8px solid #f77f00;
+    line-height: 10px;
+  }
+  
+  #hero h2 {    
+    margin: 50px 0 0 0;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'montserratbold';    
+    color: #4a4e69; 
+    line-height: 50px;         
+  }
+
+  #hero h3 {        
+    font-size: 350px;
+    font-weight: 700;
+    font-family: 'Lato-Black';    
+    color: #1d3557;  
+    background: rgba(168, 218, 220, 0.4);       
+  }
+    
+  #hero .icon-boxes {
+    margin-top: 100px;
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
+  #hero .icon-box {
+    padding: 50px 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.2);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+    width: 600px;
+  }
+  
+  #hero .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 45px;    
+    margin-top: -50px;
+    font-size: 45px;
+    font-family: 'montserratbold';
+    text-align: right;
+  }
+
+  #hero .icon-box h4 span {    
+    border-bottom: 40px solid #f77f00;
+  }
+ 
+  #hero .icon-box .description {
+    font-family: 'montserratbold';
+    font-size: 270px;
+    line-height: 28px;
+    margin-bottom: 50px;    
+    text-align: left;
+  }
+
+  #hero .icon-box:hover {
+    transform: scale(1.08);
+  }
+  
+  #hero .icon-box:hover .title h4 {
+    color: #2487ce;
+  }
+
+  #hero .icon-boxes2 {
+    margin-top: 40px;
+    background: rgba(144, 224, 239, 0.6);
+  }
+
+  #hero .icon-box2 h4 {
+    padding: 30px 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 29px 0 rgba(202, 240, 248);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+  }
+
+  #hero .icon-box2 h4 span {    
+    border-bottom: 4px solid #f77f00;
+  }
+
+  #hero .icon-box2 .description {
+    color: #124265;
+    font-family: 'montserratbold';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 15px;    
+    text-align: center;
+  }
+  
+  @media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 992px), (max-height: 500) {
+    #hero {
+      height: auto;
+    }
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+  
+  
+
+ 
